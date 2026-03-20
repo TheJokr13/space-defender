@@ -4,6 +4,7 @@ namespace SpaceDefender.Core
     {
         public int Health { get; private set; } = 50;
         public bool IsAlive => Health > 0;
+        public bool IsLootable = true;
 
         public void TakeDamage(int amount)
         {
@@ -11,6 +12,15 @@ namespace SpaceDefender.Core
             if (Health < 0) Health = 0;
         }
 
-        public int GetReward() => IsAlive ? 0 : 100; 
+        public int GetReward()
+        {
+            if (!IsLootable || IsAlive)
+            {
+                return 0;
+            }
+
+            IsLootable = false;
+            return 20; 
+        }
     }
 }
