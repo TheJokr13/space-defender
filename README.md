@@ -1,7 +1,7 @@
 ![CI Status](https://github.com/TheJokr13/space-defender/actions/workflows/ci.yml/badge.svg)
  
 ## 📝 Présentation
-Ce projet est une démonstration technique axée sur le **Développement Piloté par les Tests (TDD)** et la mise en place d'un pipeline **CI/CD** (Intégration et Déploiement Continus) pour un environnement C# / Unity. L'objectif est de garantir une logique métier 100% validée par des tests automatisés avant toute compilation.
+Ce projet est une démonstration technique axée sur le **TDD** et la mise en place d'un pipeline **CI/CD** pour un environnement C# / Unity. L'objectif est de garantir une logique métier 100% validée par des tests automatisés avant toute compilation.
 
 ## 🛠️ Architecture de la Logique Métier
 Le projet implémente les briques fondamentales d'un système de jeu via trois classes isolées dans le namespace `SpaceDefender.Core` :
