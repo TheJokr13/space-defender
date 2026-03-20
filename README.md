@@ -1,4 +1,4 @@
-![CI Status](https://github.com/VOTRE_USER/space-defender/
+[CI Status](https://github.com/VOTRE_USER/space-defender/
 actions/workflows/ci.yml/badge.svg)
  
 Mini-jeu de tir spatial en C# / Unity.
